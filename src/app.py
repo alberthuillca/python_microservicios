@@ -100,5 +100,6 @@ def eliminar_producto(id):
     cursor.close()
     return jsonify({'status': 'Data '+ id +' is deleted on MySQL!'})
 
+
 if __name__ == '__main__':
     app.run(port=4000, debug=True)
